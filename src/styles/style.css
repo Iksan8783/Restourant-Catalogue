@@ -94,26 +94,34 @@ body {
  */
 
 .hero {
+  box-sizing: border-box;
+  position: relative;
   display: flex;
   align-items: center;
   min-height: 380px;
   width: 100%;
   text-align: center;
-  background-image: url('../public/images/hero-image.jpg');
+  /* background-image: url('../public/images/hero.jpg'); */
   background-position: center;
-  background-color: green;
+  background-color: rgba(0, 0, 0, 0.815);
+  z-index: 1;
 }
 
 .hero__inner {
+  position: absolute;
+  top: 50px;
+  left: 20px;
   margin: 0 auto;
   max-width: 100%px;
+  z-index: 2;
 }
 
 .hero__title {
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   color: #fff;
   font-weight: 500;
-  font-size: 36px;
+  font-size: 50px;
+  text-shadow: 3px 3px #f1d00a;
 }
 
 .hero__tagline {

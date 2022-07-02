@@ -6,7 +6,7 @@
     <meta name="description" content="Free restaurant-api catalogue for you" />
     <meta name="theme-color" content="#db0000" />
     <link rel="apple-touch-icon" href="/icons/icon-192x192.png" />
-    <link rel="manifest" href="manifest.json" />
+    <link rel="manifest" href="./manifest.json" />
     <link rel="icon" href="favicon.png" />
     <script src="https://kit.fontawesome.com/6213932414.js" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet" />
@@ -31,7 +31,20 @@
       </nav>
     </header>
 
+    <!-- <picture>
+      <source media="(max-width: 600px)" srcset="./images/hero-small.webp" type="image/webp" />
+      <source media="(max-width: 600px)" srcset="./images/hero.small.jpg" type="image/jpeg" />
+      <img src="./images/hero-large.jpg" alt="" />
+    </picture> -->
+
     <div class="hero" alt="Gambar Hero Makanan" style="display: inline-block">
+      <picture>
+        <source media="(max-width: 650px)" srcset="./images/hero-small.jpg" type="image/jpeg" />
+        <source media="(min-width: 650px)" srcset="./images/hero-medium.jpg" type="image/jpeg" />
+        <source media="(min-width: 1200px)" srcset="./images/hero-large.jpg" type="image/jpeg" />
+
+        <img loading="lazy" width="100%" height="380px" src="./images/hero-large.jpg" alt="" />
+      </picture>
       <div class="hero__inner">
         <h1 class="hero__title">Let's come to the Nusantara restaurants</h1>
         <p class="hero__tagline">It’s easy to impress me. I don’t need a fancy party to be happy. Just good friends, good food, and good laughs. I’m happy. I’m satisfied. I’m content</p>
@@ -40,7 +53,7 @@
 
     <main tabindex="0" id="mainContent"></main>
     <footer>
-      <p>All data obtained from <a href="https://restaurant-api.dicoding.dev/" target="_blank" rel="noreferrer">TheRestaurantDB</a></p>
+      <p>All data obtained from <a href="https://restaurant-api.dicoding.dev/" target="_blank" rel="noreferrer">Nusantara Restaurant</a></p>
     </footer>
   </body>
 </html>
