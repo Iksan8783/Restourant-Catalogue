@@ -1,9 +1,9 @@
 {
-  "id": "movie-catalogue-lite-pwa-1",
+  "id": "restaurant-catalogue-lite-pwa-1",
   "start_url": "./index.html",
   "name": "Nusantara Catalogue Restaurant",
   "short_name": "Catalogue Restaurant",
-  "description": "Free Catalogue Movie for you",
+  "description": "Free Catalogue Restaurant for you",
   "display": "standalone",
   "background_color": "#FFFFFF",
   "theme_color": "#D84315",

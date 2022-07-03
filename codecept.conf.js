@@ -19,7 +19,7 @@ exports.config = {
   },
   bootstrap: null,
   mocha: {},
-  name: 'movie-catalogue-lite',
+  name: 'restaurant-catalogue-lite',
   plugins: {
     retryFailedStep: {
       enabled: true,
